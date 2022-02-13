@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "target": "es2019",
+    "module": "commonjs",
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "./dist"
+  },
+  "references": [
+    {
+      "path":"./packages/abstract-utils"
+    },
+    {
+      "path":"./packages/utils-bigint"
+    }
+  ],
+  "files": [
+    "./src/index.ts"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@railgun-community/lepton-abstract-utils",
+  "version": "0.0.1",
+  "description": "Wallet framework for Railgun",
+  "author": "Railgun Contributors",
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "scripts": {
+    "compile": "tsc -b -v",
+    "clean": "rm -rf dist tsconfig.tsbuildinfo"
+  }
+}
