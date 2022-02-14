@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "incremental": true,
     "target": "es2019",
     "module": "commonjs",
     "declaration": true,
@@ -8,17 +7,17 @@
     "strict": true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "resolveJsonModule": true
   },
   "references": [
     {
-      "path":"./packages/abstract-utils"
+      "path": "./packages/abstract-utils"
     },
     {
-      "path":"./packages/utils-bigint"
+      "path": "./packages/utils-bigint"
     }
   ],
-  "files": [
-    "./src/index.ts"
-  ]
+  // "files": ["./src/index.ts"],
+  "exclude": ["dist/*", "test/*"]
 }
